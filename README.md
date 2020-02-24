@@ -1,2 +1,0 @@
-# remote-git
-project
