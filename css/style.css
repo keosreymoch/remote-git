@@ -1,0 +1,97 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
+}
+.masthead {
+    height: 100vh;
+    min-height: 600px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+.container-fluid .navbar-brand{
+    color:white;
+    transition: 0.1s;
+}
+.container-fluid .navbar-brand:hover{
+    color:#cecdc5;
+}
+ul li a{
+    color: white;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: #cecdc5;
+}
+.navbar-toggler{
+    color: white;
+}
+img{
+    width: 100%;
+}
+.contant{
+    background-color:#ebebe0;
+}
+.txt-step{
+    background-color: white;
+    padding: 10px;
+}
+.col-sm-3{
+    margin-top: 10px;
+}
+.font{
+    font-size: 26px;
+    padding-top: 15px;
+    color: #ff9933;
+}
+.loc {
+    background-color: white;
+}
+.loc .text-center{
+    padding-top: 15px;
+}
+.loc img{
+    width: 90%;
+}
+.col{
+    background-color: white;
+    
+
+}
+.content{
+    padding: 25px 10px 25px 10px;
+}
+@media (min-width: 992px) { 
+    .container{
+        max-width: 1200px;
+    }
+    p{
+        font-weight: 18px;
+    }
+    .row .col-sm-3{
+        width: 50%;
+    }
+    
+ }
+ /* @media (min-width: 768px) { 
+    .container{
+        max-width: 1200px;
+    }
+  }
+ @media (min-width: 576px) { 
+    .container{
+        max-width: 1200px;
+    }
+ } */
+
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+    iframe{
+        width: 100%;
+        height: 300px;
+}
+}
