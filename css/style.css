@@ -97,6 +97,28 @@ img{
 .content{
     padding: 25px 10px 25px 10px;
 }
+@media (min-width: 992px) { 
+    .container{
+        max-width: 1200px;
+    }
+    p{
+        font-weight: 18px;
+    }
+    .row .col-sm-3{
+        width: 50%;
+    }
+    
+ }
+ /* @media (min-width: 768px) { 
+    .container{
+        max-width: 1200px;
+    }
+  }
+ @media (min-width: 576px) { 
+    .container{
+        max-width: 1200px;
+    }
+ } */
 
 @media only screen and (max-width:500px) {
     /* For tablets: */
