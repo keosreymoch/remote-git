@@ -1,3 +1,42 @@
-body{
-    background-color: antiquewhite;
+img{
+    width: 100%;
 }
+.container-fluid{
+    background-color:#ebebe0;
+}
+.txt-step{
+    background-color: white;
+    padding: 10px;
+}
+.col-sm-3{
+    margin-top: 10px;
+}
+.font{
+    font-size: 26px;
+    padding-top: 15px;
+    color: #ff9933;
+}
+.loc {
+    background-color: white;
+}
+.loc .text-center{
+    padding-top: 15px;
+}
+.loc img{
+    width: 90%;
+}
+.col{
+    background-color: white;
+    
+
+}
+.content{
+    padding: 25px 10px 25px 10px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+    iframe{
+        width: 100%;
+        height: 300px;
+    }
