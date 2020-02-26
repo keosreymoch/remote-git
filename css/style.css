@@ -13,10 +13,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    font-size: 0.6vw;
   }
 .container-fluid .navbar-brand{
     color:white;
-    font-size: 2vw;
+    font-size: 1.5vw;
     transition: 0.1s;
 }
 .container-fluid .navbar-brand:hover{
@@ -25,7 +26,7 @@ body {
 ul li a{
     text-align: center;
     color: white;
-    font-size: 1vw;
+    font-size: 0.9vw;
     transition: 0.5s;
 }
 ul li a:hover{
