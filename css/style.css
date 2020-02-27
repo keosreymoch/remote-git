@@ -7,10 +7,10 @@ body {
 /* menu */
 .masthead {
     height: 100vh;
-    min-height: 600px;
-    background-image: url("../img/header.jpg");
+    /* min-height: 600px; */
+    background-image: url("../img/LP_image_top.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: fixed;
     background-repeat: no-repeat;
     color: white;
     font-size: 0.6vw;
@@ -18,7 +18,7 @@ body {
 .container-fluid .navbar-brand{
     color:white;
     font-size: 1.5vw;
-    transition: 0.1s;
+    transition: 0.5s;
 }
 .container-fluid .navbar-brand:hover{
     color:#cecdc5;
@@ -46,7 +46,15 @@ ul li a:hover{
     margin:0;
     height: auto;
 }
-
+.width-left ul li a{
+    color: white;
+    font-size: 0.8vw;
+}.width-left ul li a:hover{
+    color: #cecdc5;
+}
+.font-wieght-light{
+    margin-top: 20px;
+}
 /* end menu */
 .text-header{
     padding: 15px;
@@ -55,13 +63,14 @@ ul li a:hover{
 }
 .text-p{
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
     line-height: 1.2em;
 }
 .text-p2{
-    margin-top:15px;
+    margin:15px 0 15px 0;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 1vw;
+    line-height: 1.2em;
 }
 img{
     width: 100%;
