@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+<<<<<<< HEAD
     width: 100%;
     margin: 0;
     font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
@@ -63,7 +64,37 @@ ul li a:hover{
     font-size: 1.2vw;
 }
 img{
+=======
+>>>>>>> e23277363856da0d3ccc7aeb204da74831d12358
     width: 100%;
+    margin: 0;
+    font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
+}
+.masthead {
+    height: 100vh;
+    min-height: 600px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+.container-fluid .navbar-brand{
+    color:white;
+    transition: 0.1s;
+}
+.container-fluid .navbar-brand:hover{
+    color:#cecdc5;
+}
+ul li a{
+    color: white;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: #cecdc5;
+}
+.navbar-toggler{
+    color: white;
 }
 .contant{
     background-color:#ebebe0;
