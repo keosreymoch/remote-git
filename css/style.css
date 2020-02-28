@@ -72,6 +72,7 @@ ul li a:hover{
     font-size: 1vw;
     line-height: 1.2em;
 }
+
 img{
     width: 100%;
 }
@@ -81,6 +82,7 @@ img{
 .txt-step{
     background-color: white;
     padding: 10px;
+    position: relative;
 }
 .col-sm-3{
     margin-top: 10px;
@@ -128,26 +130,44 @@ video{
 #carouselExampleInterval{
     display: none;
 }
+.scroll img{
+    width: 60px;
+    height: 60px;
+}
+.scroll{
+    width :10px;
+    position: fixed;
+    right:150px;
+    bottom: 15;
+    z-index: 10;
+    cursor: pointer;
+    display: none;
+}
+.scroll:hover img{
+    background: rgb(211, 191, 191);
+    border-radius: 50%;    
+} 
 @media (min-width: 992px) { 
-    .container{
-        max-width: 1200px;
-    }
-    p{
-        font-weight: 18px;
-    }
+
+  .container{
+      width:100%;
+  }
+  .btn{
+    font-size: 14px;
+}
     
  }
- /* @media (min-width: 768px) { 
-    .container{
-        max-width: 1200px;
-    }
-  }
- @media (min-width: 576px) { 
-    .container{
-        max-width: 1200px;
-    }
- } */
+ @media (min-width: 760px) { 
 
+    .container{
+        width:100%;
+    }
+    .btn{
+        font-size: 12px;
+    }
+      
+   }
+  
 @media only screen and (max-width:500px) {
     /* For tablets: */
     video{
@@ -159,4 +179,14 @@ video{
     .step{
         display: none;
     }
+    .scroll{
+        right: 60px;
+    }
+    .scroll img{
+        opacity: 1s;
+    }
+    .button{
+        width: 100%;
+    }
+
 }
