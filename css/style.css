@@ -6,18 +6,22 @@ body {
 }
 /* menu */
 .masthead {
+    top:0;
     height: 100vh;
-    /* min-height: 600px; */
+    min-height: 600px;
     background-image: url("../img/LP_image_top.jpg");
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
     color: white;
-    font-size: 0.6vw;
+  }
+  .text-center{
+      top:100px;
+      bottom:10px;
   }
 .container-fluid .navbar-brand{
     color:white;
-    font-size: 1.5vw;
+    font-size: 20px;
     transition: 0.5s;
 }
 .container-fluid .navbar-brand:hover{
@@ -26,10 +30,16 @@ body {
 ul li a{
     text-align: center;
     color: white;
-    font-size: 0.9vw;
+    font-size: 17px;
     transition: 0.5s;
 }
 ul li a:hover{
+    color: #cecdc5;
+}
+.width-left ul li a{
+    color: white;
+    font-size: 15px;
+}.width-left ul li a:hover{
     color: #cecdc5;
 }
 .navbar-toggler{
@@ -46,33 +56,26 @@ ul li a:hover{
     margin:0;
     height: auto;
 }
-.width-left ul li a{
-    color: white;
-    font-size: 0.8vw;
-}.width-left ul li a:hover{
-    color: #cecdc5;
-}
 .font-wieght-light{
     margin-top: 20px;
 }
 /* end menu */
 .text-header{
-    padding: 15px;
+    padding: 20px;
     text-align: center;
-    font-size: 1.2vw;
+    font-size: 26px;
 }
 .text-p{
     text-align: center;
-    font-size: 1vw;
+    font-size: 18px;
     line-height: 1.2em;
 }
 .text-p2{
     margin:15px 0 15px 0;
     text-align: center;
-    font-size: 1vw;
+    font-size: 18px;
     line-height: 1.2em;
 }
-
 img{
     width: 100%;
 }
@@ -82,7 +85,6 @@ img{
 .txt-step{
     background-color: white;
     padding: 10px;
-    position: relative;
 }
 .col-sm-3{
     margin-top: 10px;
@@ -94,41 +96,21 @@ img{
 }
 .loc {
     background-color: white;
-    padding: 15px;
 }
 .loc .text-center{
     padding-top: 15px;
 }
 .loc img{
-    width: 100%;
+    width: 90%;
 }
 .col{
     background-color: white;
     
 
 }
-.form{
-    width: 400px;
-    height: 300px;
-    background-color: #fff2e6;
-    border: 1px solid black;
-}
 .content{
     padding: 25px 10px 25px 10px;
-}
-video{
-    width: 80%;
-}
-.carousel-control-prev-icon{
-    background-color: black;
-    color: black;
-}
-.carousel-control-next-icon{
-    background-color: black;
-    color: black;
-}
-#carouselExampleInterval{
-    display: none;
+/* responsice */
 }
 .scroll img{
     width: 60px;
@@ -146,47 +128,41 @@ video{
 .scroll:hover img{
     background: rgb(211, 191, 191);
     border-radius: 50%;    
-} 
-@media (min-width: 992px) { 
-
-  .container{
-      width:100%;
-  }
-  .btn{
-    font-size: 14px;
 }
+@media (min-width: 992px) { 
+    .container{
+        max-width: 1200px;
+    }
+    p{
+        font-weight: 18px;
+    }
+    .row .col-sm-3{
+        width: 50%;
+    }
     
  }
- @media (min-width: 760px) { 
-
-    .container{
-        width:100%;
-    }
-    .btn{
-        font-size: 12px;
-    }
-      
-   }
-  
 @media only screen and (max-width:500px) {
     /* For tablets: */
-    video{
+    iframe{
         width: 100%;
+        height: 300px;
     }
-    #carouselExampleInterval{
-        display: block;
-    }
-    .step{
-        display: none;
-    }
-    .scroll{
-        right: 60px;
-    }
-    .scroll img{
-        opacity: 1s;
-    }
-    .button{
-        width: 100%;
-    }
-
 }
+@media only screen and (max-width:400px){
+    .masthead{
+        background-size: cover;
+        height: 500px;
+        width: auto;
+    }
+    .text-header{
+        font-size: 19px;
+    }
+    .text-p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .text-p2{
+        font-size: 14px;
+    }
+}
+/* responsive end */
