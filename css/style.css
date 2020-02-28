@@ -92,20 +92,41 @@ img{
 }
 .loc {
     background-color: white;
+    padding: 15px;
 }
 .loc .text-center{
     padding-top: 15px;
 }
 .loc img{
-    width: 90%;
+    width: 100%;
 }
 .col{
     background-color: white;
     
 
 }
+.form{
+    width: 400px;
+    height: 300px;
+    background-color: pink;
+    border: 1px solid black;
+}
 .content{
     padding: 25px 10px 25px 10px;
+}
+video{
+    width: 80%;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    color: black;
+}
+#carouselExampleInterval{
+    display: none;
 }
 @media (min-width: 992px) { 
     .container{
@@ -114,15 +135,28 @@ img{
     p{
         font-weight: 18px;
     }
-    .row .col-sm-3{
-        width: 50%;
-    }
     
  }
+ /* @media (min-width: 768px) { 
+    .container{
+        max-width: 1200px;
+    }
+  }
+ @media (min-width: 576px) { 
+    .container{
+        max-width: 1200px;
+    }
+ } */
+
 @media only screen and (max-width:500px) {
     /* For tablets: */
-    iframe{
+    video{
         width: 100%;
-        height: 300px;
+    }
+    #carouselExampleInterval{
+        display: block;
+    }
+    .step{
+        display: none;
     }
 }
