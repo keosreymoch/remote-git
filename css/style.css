@@ -150,7 +150,6 @@ img{
 }
 @media only screen and (max-width:400px){
     .masthead{
-        background-image: url(../img/LP_image_top.jpg);
         background-size: cover;
         height: 500px;
         width: auto;
