@@ -5,7 +5,6 @@
 }
 body{
     font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
-    background-color: rgba(177, 175, 175, 0.849);
     color: #ffffff;
 }
 #header{
@@ -201,5 +200,47 @@ body{
     }
     .amin h2{
         font-size: 2em;
+    }
+    .text-htop{
+        position: relative;
+        top: -20px;
+        text-align: center;
+    }
+    .main{
+        min-height: 30vh;
+        background-size: 80vh;
+        background-position: center;
+        padding: 220px 0 100px;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width:400px){
+    .navbar ul {
+        padding: 0 10px;
+    }
+    .navbar ul li a {
+        min-width: 100px;
+        padding: 0 20px;
+    }
+    .navbar a.navbar-brand{
+        height: 60px;    
+        line-height: 70px;
+        font-size: 22px;
+    }
+    .text-htop{
+        position: relative;
+        top: -20px;
+        text-align: center;
+    }
+    .text-htop h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .main{
+        min-height: 30vh;
+        background-size: 115vh;
+        background-position: center;
+        padding: 220px 0 100px;
+        background-repeat: no-repeat;
     }
 }
