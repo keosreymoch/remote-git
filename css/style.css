@@ -5,10 +5,20 @@ body {
     font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
 }
 /* menu */
+<<<<<<< HEAD
+=======
+.masthead {
+    /* min-height: 600px; */
+    background-image: url("../img/LP_image_top.jpg");
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+
+  }
+>>>>>>> 179438e248d302e03eda5341dae87533be597f6f
 .container-fluid .navbar-brand{
     color:white;
-    font-size: 20px;
-    transition: 0.5s;
+ 
 }
 .container-fluid .navbar-brand:hover{
     color:#cecdc5;
@@ -16,20 +26,11 @@ body {
 ul li a{
     text-align: center;
     color: white;
-    font-size: 17px;
-    transition: 0.5s;
 }
 ul li a:hover{
     color: #cecdc5;
 }
-.width-left ul li a{
-    color: white;
-    font-size: 15px;
-}.width-left ul li a:hover{
-    color: #cecdc5;
-}
 .navbar-toggler{
-    font-size: 6vw;
     color: white;
 }
 .width-cent{
@@ -42,13 +43,20 @@ ul li a:hover{
     margin:0;
     height: auto;
 }
+.width-left ul li a{
+    color: white;
+
+}.width-left ul li a:hover{
+    color: #cecdc5;
+}
 .font-wieght-light{
     margin-top: 20px;
 }
 /* end menu */
 .text-header{
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+<<<<<<< HEAD
     font-size: 26px;
     color: black;
 }
@@ -58,14 +66,24 @@ ul li a:hover{
     line-height: 1.2em;
     letter-spacing: 2px;
     color: white;
+=======
+}
+.text-p{
+    text-align: center;
+>>>>>>> 179438e248d302e03eda5341dae87533be597f6f
 }
 .text-p2{
     margin:15px 0 15px 0;
     text-align: center;
+<<<<<<< HEAD
     font-size: 18px;
     color: black;
+=======
+    font-size: 1vw;
+>>>>>>> 179438e248d302e03eda5341dae87533be597f6f
     line-height: 1.2em;
 }
+
 img{
     width: 100%;
 }
@@ -75,6 +93,7 @@ img{
 .txt-step{
     background-color: white;
     padding: 10px;
+    position: relative;
 }
 .col-sm-3{
     margin-top: 10px;
@@ -83,22 +102,46 @@ img{
     font-size: 26px;
     padding-top: 15px;
     color: #ff9933;
+    
 }
 .loc {
     background-color: white;
+    padding: 15px;
 }
 .loc .text-center{
     padding-top: 15px;
 }
 .loc img{
-    width: 90%;
+    width: 100%;
 }
 .col{
     background-color: white;
 }
+.form{
+    width: 400px;
+    height: 300px;
+    background-color: #fff2e6;
+    border: 1px solid black;
+}
+.header{
+    height: 300px;
+}
 .content{
     padding: 25px 10px 25px 10px;
-/* responsice */
+}
+video{
+    width: 80%;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+    color: black;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    color: black;
+}
+#carouselExampleInterval{
+    display: none;
 }
 .scroll img{
     width: 60px;
@@ -117,23 +160,50 @@ img{
     background: rgb(211, 191, 191);
     border-radius: 50%;    
 }
+.header{
+    margin-top: 500px;
+    height: 400px;
+}
 @media (min-width: 992px) { 
+
+  .container{
+      width:100%;
+  }
+  .btn{
+    font-size: 14px;
+}
+    
+ }
+ @media (min-width: 760px) { 
+
     .container{
-        max-width: 1200px;
+        width:100%;
     }
-    p{
-        font-weight: 18px;
-    }
+<<<<<<< HEAD
     .row .col-sm-3{
         width: 50%;
     } 
  }
 @media (max-width:500px) {
-    /* For tablets: */
-    iframe{
-        width: 100%;
-        height: 300px;
+=======
+    .btn{
+        font-size: 12px;
     }
+      
+   }
+  
+@media only screen and (max-width:500px) {
+>>>>>>> 179438e248d302e03eda5341dae87533be597f6f
+    /* For tablets: */
+    .masthead {
+        /* min-height: 600px; */
+        background-image: url("../img/LP_image_top.jpg");
+        background-position: center center;
+      }
+    video{
+        width: 100%;
+    }
+<<<<<<< HEAD
 }
 @media (max-width:400px){
     .text-header{
@@ -151,6 +221,29 @@ img{
         display: block;
         position: block;
         top: 90px;
+=======
+    #carouselExampleInterval{
+        display: block;
     }
+    .step{
+        display: none;
+    }
+    .scroll{
+        right: 60px;
+    }
+    .scroll img{
+        opacity: 1s;
+>>>>>>> 179438e248d302e03eda5341dae87533be597f6f
+    }
+    .button{
+        width: 100%;
+    }
+    .header{
+        margin-top: 70px;
+        height: 200px;
+    }
+    h2{
+        font-size: 18px;
+    }
+
 }
-/* responsive end */
