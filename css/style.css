@@ -5,17 +5,6 @@ body {
     font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
 }
 /* menu */
-<<<<<<< HEAD
-=======
-.masthead {
-    /* min-height: 600px; */
-    background-image: url("../img/LP_image_top.jpg");
-    background-size: cover;
-    color: white;
-    background-repeat: no-repeat;
-
-  }
->>>>>>> 179438e248d302e03eda5341dae87533be597f6f
 .container-fluid .navbar-brand{
     color:white;
  
@@ -56,7 +45,6 @@ ul li a:hover{
 .text-header{
     padding: 15px;
     text-align: center;
-<<<<<<< HEAD
     font-size: 26px;
     color: black;
 }
@@ -66,21 +54,12 @@ ul li a:hover{
     line-height: 1.2em;
     letter-spacing: 2px;
     color: white;
-=======
-}
-.text-p{
-    text-align: center;
->>>>>>> 179438e248d302e03eda5341dae87533be597f6f
 }
 .text-p2{
     margin:15px 0 15px 0;
     text-align: center;
-<<<<<<< HEAD
     font-size: 18px;
     color: black;
-=======
-    font-size: 1vw;
->>>>>>> 179438e248d302e03eda5341dae87533be597f6f
     line-height: 1.2em;
 }
 
@@ -179,21 +158,11 @@ video{
     .container{
         width:100%;
     }
-<<<<<<< HEAD
     .row .col-sm-3{
         width: 50%;
     } 
  }
 @media (max-width:500px) {
-=======
-    .btn{
-        font-size: 12px;
-    }
-      
-   }
-  
-@media only screen and (max-width:500px) {
->>>>>>> 179438e248d302e03eda5341dae87533be597f6f
     /* For tablets: */
     .masthead {
         /* min-height: 600px; */
@@ -203,7 +172,6 @@ video{
     video{
         width: 100%;
     }
-<<<<<<< HEAD
 }
 @media (max-width:400px){
     .text-header{
@@ -221,19 +189,6 @@ video{
         display: block;
         position: block;
         top: 90px;
-=======
-    #carouselExampleInterval{
-        display: block;
-    }
-    .step{
-        display: none;
-    }
-    .scroll{
-        right: 60px;
-    }
-    .scroll img{
-        opacity: 1s;
->>>>>>> 179438e248d302e03eda5341dae87533be597f6f
     }
     .button{
         width: 100%;
