@@ -5,16 +5,6 @@ body {
     font: 1rem/1.75rem "HiraginoSans-W3", Lato, "HiraKakuProN-W3", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "メイリオ", sans-serif;
 }
 /* menu */
-.masthead {
-    top:0;
-    height: 100vh;
-    min-height: 600px;
-    background-image: url("../img/LP_image_top.jpg");
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    color: white;
-  }
 .container-fluid .navbar-brand{
     color:white;
     font-size: 20px;
@@ -60,16 +50,20 @@ ul li a:hover{
     padding: 20px;
     text-align: center;
     font-size: 26px;
+    color: black;
 }
 .text-p{
     text-align: center;
     font-size: 18px;
     line-height: 1.2em;
+    letter-spacing: 2px;
+    color: white;
 }
 .text-p2{
     margin:15px 0 15px 0;
     text-align: center;
     font-size: 18px;
+    color: black;
     line-height: 1.2em;
 }
 img{
@@ -101,8 +95,6 @@ img{
 }
 .col{
     background-color: white;
-    
-
 }
 .content{
     padding: 25px 10px 25px 10px;
@@ -134,31 +126,31 @@ img{
     }
     .row .col-sm-3{
         width: 50%;
-    }
-    
+    } 
  }
-@media only screen and (max-width:500px) {
+@media (max-width:500px) {
     /* For tablets: */
     iframe{
         width: 100%;
         height: 300px;
     }
 }
-@media only screen and (max-width:400px){
-    .masthead{
-        background-size: cover;
-        height: 500px;
-        width: auto;
-    }
+@media (max-width:400px){
     .text-header{
-        font-size: 19px;
+        font-size: 20px;
+        color: black;
     }
-    .text-p{
+    .text-p p{
         text-align: center;
-        font-size: 14px;
+        font-size: 15px;
     }
-    .text-p2{
-        font-size: 14px;
+    .text-p2 p{
+        font-size: 15px;
+    }
+    .text-center{
+        display: block;
+        position: block;
+        top: 90px;
     }
 }
 /* responsive end */
